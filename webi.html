@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="ux.css">
+  <title>Class Attendance System</title>
+</head>
+<body>
+  <header class="header">
+    <h1>Class Attendance System</h1>
+  </header>
+  <div class="container">
+    <div class="attendance-form">
+      <select id="studentSelect">
+        <option value="">Select a student</option>
+      </select>
+      <button id="markAttendanceBtn">Mark Attendance</button>
+    </div>
+    <div class="attendance-summary">
+      <p>Total Present: <span id="totalPresent">0</span></p>
+      <p>Total Absent: <span id="totalAbsent">0</span></p>
+    </div>
+    <div class="student-list" id="studentList">
+    </div>
+    <button id="submitAttendanceBtn" class="submit-button">Submit</button>
+  </div>
+  <script src="working.js"></script>
+</body>
+</html>
